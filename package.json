@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/SergeiMeza/ultimate-stack.git",
   "author": "Sergei Meza <sergeimeza@gmail.com>",
-  "license": "AGPL-3.0 license",
+  "license": "AGPL-3.0",
   "private": true,
   "workspaces": {
     "packages": [

@@ -1,0 +1,28 @@
+{
+  "version": "0.0.0",
+  "name": "ustack",
+  "description": "Ultimate Stack is a open-source robust tech stack implementation for a Node.js application. It wraps other well-known open-source projects and provides a consistent API for them. It follows the best practices of Node.js development and provides a solid foundation for your next project.",
+  "keywords": [],
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergeimeza/ultimate-stack.git",
+    "directory": "apps/cli"
+  },
+  "author": {
+    "name": "Sergei Meza",
+    "email": "sergei@lpp.pw"
+  },
+  "bugs": "https://github.com/sergeimeza/ultimate-stack/issues",
+  "license": "AGPL-3.0",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [],
+  "bin": {
+    "ustack": "build/index.js"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "dependencies": {}
+}
