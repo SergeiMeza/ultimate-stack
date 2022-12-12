@@ -17,6 +17,7 @@
     "nohoist": []
   },
   "scripts": {
+    "commit": "cz",
     "build": "turbo run build",
     "test": "turbo run test",
     "lint": "turbo run lint",
