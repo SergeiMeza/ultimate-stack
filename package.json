@@ -1,0 +1,33 @@
+{
+  "name": "ultimate-stack",
+  "version": "1.0.0",
+  "description": "The ultimate tech stack to launch your application.",
+  "main": "index.js",
+  "repository": "https://github.com/SergeiMeza/ultimate-stack.git",
+  "author": "Sergei Meza <sergeimeza@gmail.com>",
+  "license": "AGPL-3.0 license",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*",
+      "cli/*",
+      "vendor/*"
+    ],
+    "nohoist": []
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "dev": "turbo run dev"
+  },
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0"
+  },
+  "packageManager": "yarn@1.22.19"
+}
