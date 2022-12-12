@@ -23,11 +23,17 @@
     "dev": "turbo run dev"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "turbo": "^1.6.3"
   },
   "engines": {
     "npm": ">=8.0.0",
     "node": ">=16.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "packageManager": "yarn@1.22.19"
 }
