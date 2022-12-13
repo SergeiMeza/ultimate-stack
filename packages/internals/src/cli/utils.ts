@@ -6,6 +6,7 @@ export function format(input = ''): string {
   return dedent(input).trimEnd() + '\n'
 }
 
+// https://github.com/vercel/arg#readme
 /** Wrap arg to return an error instead of throwing */
 export function arg<T extends Arg.Spec>(
   argv: string[],

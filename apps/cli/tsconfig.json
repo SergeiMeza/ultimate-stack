@@ -1,0 +1,11 @@
+{
+  "extends": "tsconfig/cli.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./build",
+    "allowJs": true,
+    "isolatedModules": false
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
