@@ -3,6 +3,7 @@ import chalk from 'chalk'
 import { CLI } from './cli'
 
 import { Init } from './init'
+import { Prisma } from './prisma'
 
 const commandArray = process.argv.slice(2)
 
@@ -38,8 +39,9 @@ async function main(): Promise<number> {
   const cli = CLI.new(
     {
       init: Init.new(),
+      prisma: Prisma.new(),
     },
-    ['init'],
+    ['init', 'prisma'],
   )
 
   // Execute the command

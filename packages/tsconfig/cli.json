@@ -8,6 +8,7 @@
     "module": "commonjs",
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": false
+    "resolveJsonModule": false,
+    "incremental": false
   }
 }
