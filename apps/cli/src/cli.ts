@@ -26,8 +26,6 @@ export class CLI implements Command {
       '-v': '--version',
     })
 
-    console.log({ args, argv })
-
     if (isError(args)) {
       return this.help(args.message)
     }
@@ -53,8 +51,6 @@ export class CLI implements Command {
       } else {
         argsForCmd = args._.slice(1)
       }
-
-      console.log({ argsForCmd })
 
       return cmd.parse(argsForCmd)
     }
